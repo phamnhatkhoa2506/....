@@ -1,0 +1,65 @@
+.film-area
+{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.film-area h1, p
+{
+    color: whitesmoke;
+}
+
+.Nausica-img
+{
+    display: inline-block;
+}
+
+.Nausica-img img
+{
+    height: 700px;
+    width: 450px;
+}
+
+.General-info
+{
+    text-align: justify;
+    margin-left: 20px;
+    position: absolute;
+    display: inline-block;
+}
+
+.General-info h1
+{
+    margin: 0px 0px 0px 0px;
+    font-size: 39px;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000;
+}
+
+.General-info h2
+{
+    margin: 0px 0px 0px 0px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000;
+}
+
+.General-info p
+{
+    margin-right: 70px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Schedule
+{
+    background-color: rgb(190, 49, 80);
+}
+
+.Schedule h1
+{
+    font-family: sans-serif;
+    margin-left: 550px;
+    color: aliceblue;
+}

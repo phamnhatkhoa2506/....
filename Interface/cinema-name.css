@@ -1,0 +1,253 @@
+body
+{
+    background: linear-gradient(to left, #312927, #33174a);
+}
+
+body button
+{
+    cursor: pointer;
+}
+
+a 
+{
+    text-decoration: none; /* Ẩn gạch chân của tất cả các liên kết */
+    color: whitesmoke
+}
+
+.cinema-name {
+    margin-left: 79px;
+    width: 1100px;
+    text-shadow: 3px 3px 0 #000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;   
+    user-select: none;
+    border-bottom: 3px solid black;
+    height: 70px;
+}
+
+.cinema-name img
+{
+    cursor: pointer;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+
+#Ghibli
+{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+#Cinema
+{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 185px;
+    font-size: 20px;
+}
+
+#Book-ticket-now
+{
+    color: rgb(124, 20, 13);
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 15px;
+    position: absolute;
+    height: 45px;
+    width: 120px;
+    margin-left: 300px;
+    margin-top: 10px;
+    border: 1px solid rgb(205, 220, 118);
+    border-radius: 15px;
+    background-color: rgb(217, 145, 200);
+}
+
+#Book-popcorn-now
+{
+    color:brown;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 15px;
+    position: absolute;
+    height: 45px;
+    width: 120px;
+    margin-left: 430px;
+    margin-top: 10px;
+    border: 1px solid rgb(220, 172, 118);
+    border-radius: 15px;
+    background-color: rgb(194, 207, 53);
+}
+
+.cinema-name input 
+{
+    margin-top: 18px;
+    margin-left: 600px;
+    height: 30px;
+    width: 230px;
+}
+
+.search-button
+{
+    position: absolute;
+    margin-top: 18px;
+    height: 30px;
+    width: 30;
+}
+
+#signin, #signup
+{
+    height: 30px;
+    width: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+#signin
+{
+    margin-left:81px;
+}
+
+#cinema-name, #film-area
+{
+    filter: brightness(100%);
+}
+
+.login-box
+{
+    position: absolute;
+    width: 300px;
+    height:75%;
+    background-color: wheat;
+    z-index: 2;
+    border: 3px solid rgb(69, 21, 21);
+    border-radius: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 60px 70px;
+    text-align: center;
+}
+
+#login-box
+{
+    display: none;
+}
+
+.login-box h1
+{
+    font-family: sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+.login-box h1::after
+{
+    content: '';
+    width: 50px;
+    height: 4px;
+    border-radius: 3px;
+    position: absolute;
+    background: black;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field
+{
+    background: white;
+    margin: 5px;
+    border-radius: 30px;
+    display: flex;
+    align-items:  center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.login-box input
+{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+#off-login
+{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 180px;
+    scale: 150%;
+}
+
+.input-field i
+{
+    margin-left: 15px;
+}
+
+.input-gender
+{
+    display: flex;
+    margin: 12px 17px 0px 20px;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.btn-field
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button
+{
+    flex-basis: 48%;
+    background: whitesmoke;
+    height: 40px;
+    border-radius: 20px;
+    outline: 0;
+    transition: background 1s;
+}
+
+.input-group
+{
+    height: 380px;
+}
+
+.input-group p
+{
+    margin-left: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: block;
+    transition: background 1s;
+    max-height: 65px;
+}
+
+.input-group p a
+{
+    color: brown;
+    font-weight: 700;
+}
+
+.btn-field button.disable
+{
+    background: #bbb;
+    color: rgb(12, 12, 12)
+}
+
+#Forget-password
+{
+    color: black;
+}

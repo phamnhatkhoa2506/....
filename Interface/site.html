@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Site</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="cinema-name.css">
+        <link rel="stylesheet" type="text/css" href="film-area.css">
+
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <div class="login-box" id="login-box">
+            <i class="fa-solid fa-xmark" id="off-login" onclick="closeLoginBox ()"></i>
+            <h1 id="title">Đăng ký</h1>
+            <form id="login-form" action="">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Họ và tên">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <input type="text" placeholder="Tên đăng nhập">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="text" placeholder="Mật khẩu">
+                    </div>
+                    <div class="input-field" id="emailField">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="input-gender" id="genderField">
+                        <i class="fa-solid fa-venus-mars"></i>
+                        <input type="radio">Nam
+                        <input type="radio">Nữ
+                        <input type="radio">Khác
+                    </div>
+                    <p id="Forget-password">Forget password, <a href="#">click here!</a></p>
+                </div>
+                
+                <div class="btn-field">
+                    <button type="button" id="signin-btn" class="disable">Đăng nhập</button>
+                    <button type="button" id="signup-btn">Đăng ký</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="cinema-name" id="cinema-name">
+            <a id="Totoro" href="http://127.0.0.1:5501/site.html"><img src="resources/Remove-bg.ai_1724484049272.png"></a>
+            <a id="Ghibli" href="http://127.0.0.1:5501/site.html">Ghibli</a>
+            <a id="Cinema" href="http://127.0.0.1:5501/site.html">Cinema</a>
+
+            <a href="http://127.0.0.1:5501/movies/movies.html"><button id="Book-ticket-now">Đặt vé ngay</button></a>
+            <a href="http://127.0.0.1:5501/junkfood/junkfood.html"><button id="Book-popcorn-now">Đặt bắp nước</button></a>
+            
+            <input id="Search" type="search" placeholder="Tìm phim" aria-label="Tìm kiếm">
+            <button class="search-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 19l-4.35-4.35a7.5 7.5 0 1 0-1.414 1.414L19.586 20.414A1 1 0 0 0 21 19zM10 15a5 5 0 1 1 0-10 5 5 0 0 1 0 10z" fill="#000"/>
+                </svg>
+            </button>
+
+            <button id="signin" onclick="openSignin()">Đăng nhập</button>
+            <button id="signup" onclick="openSignup()">Đăng ký</button>
+        </div>
+
+        <div class="film-area" id="film-area">
+            <div class="box1">
+                <h1 id="quickbook">Đặt vé nhanh</h1>
+                <div class="selects">
+                    <select id="venue-select">
+                    </select>
+                    <select id="venue-select">
+                    </select>
+                    <select id="venue-select">
+                    </select>
+                    <select id="venue-select">
+                    </select>
+                </div>
+            </div>
+
+            <div class="film-showing-title">
+                <h1>Phim đang chiếu</h1>
+            </div>
+
+            <div class="film-show">
+                <div class="film-slider">
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/aya.jpg" alt="AYA"></a>
+                        <p>Earwig And The Witch</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/baron.jpg" alt="BARON"></a>
+                        <p>The Cat Returns</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/chihiro.jpg" alt="CHIHIRO"></a>
+                        <p>Spirited Away</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/ghiblies.jpg" alt="GHIBLIES"></a>
+                        <P>The GHIBLIES episode 2</P>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/hotarunohaka.jpg" alt="HOTARU"></a>
+                        <p>Grave of the Fireflies</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/howl.jpg" alt="HOWL"></a>
+                        <P>Howl's Moving Castle</P>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/kaguyahime.jpg" alt="KAGUYA"></a>
+                        <p>The Tale of The Princess Kaguya</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/karigurashi.jpg" alt="KARIHURASHI"></a>
+                        <p>Arrietty</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/kazetachinu.jpg" alt="KAZETACHINU"></a>
+                        <p>The Wind Rises</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/kimitachi.jpg" alt="KIMITACHI"></a>
+                        <p>The Boy and The Heron</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/kokurikozaka.jpg" alt="KOKURIKOZAWA"></a>
+                        <p>From Up on Poppy Hill</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/laputa.jpg" alt="LAPUTA"></a>
+                        <p>Castle in the Sky</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/majo.jpg" alt="KARIHURASHI"></a>
+                        <p>Kiki's Delivery Service</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/marnie.jpg" alt="KARIHURASHI"></a>
+                        <p>When Marnie Was There</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/mimi.jpg" alt="KARIHURASHI"></a>
+                        <p>Whisper of the Heart</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/mononoke.jpg" alt="KARIHURASHI"></a>
+                        <p>Princess Mononoke</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="http://127.0.0.1:5501/Interface/NausicaaOftheWindValley.html"><img class="mySlides" src="movies/showing/resources/nausicaa.jpg" alt="KARIHURASHI"></a>
+                        <p>Nausicaä of the Valley of the Wind</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/omoide.jpg" alt="KARIHURASHI"></a>
+                        <p>Only Yesterday</p>
+                    </div>
+                    <div class="div-film">
+                        <a href="#"><img class="mySlides" src="movies/showing/resources/onyourmark.jpg" alt="KARIHURASHI"></a>
+                        <p>On Your Mark</p>
+                    </div>
+                </div>
+                <button class="prev" onclick="plusDivs(-4)">&#10094;</button>
+                <button class="next" onclick="plusDivs(4)">&#10095;</button>
+            </div>
+
+            <div class="dot-container"></div>
+
+            <div class="more-film">
+                <button>Xem thêm</button>
+            </div>
+
+            <div class="upcoming-title">
+                <h1>Phim sắp chiếu</h1>
+            </div>
+
+            <div class="film-upcoming">
+                <div class="film-slider-2">
+                    <div class="div-upcoming">
+                        <a href="#"><img class="mySlides" src="movies/upcoming/resources/ponyo.jpg" alt="BARON"></a>
+                        <p>The Cat Returns</p>
+                    </div>
+                    <div class="div-upcoming">
+                        <a href="#"><img class="mySlides" src="movies/upcoming/resources/porco.jpg" alt="CHIHIRO"></a>
+                        <p>Spirited Away</p>
+                    </div>
+                    <div class="div-upcoming">
+                        <a href="#"><img class="mySlides" src="movies/upcoming/resources/red-turtle.jpg" alt="GHIBLIES"></a>
+                        <P>The GHIBLIES episode 2</P>
+                    </div>
+                    <div class="div-upcoming">
+                        <a href="#"><img class="mySlides" src="movies/upcoming/resources/tanuki.jpg" alt="HOTARU"></a>
+                        <p>Grave of the Fireflies</p>
+                    </div>
+                    <div class="div-upcoming">
+                        <a href="#"><img class="mySlides" src="movies/upcoming/resources/totoro.jpg" alt="HOWL"></a>
+                        <P>Howl's Moving Castle</P>
+                    </div>
+                    <div class="div-upcoming">
+                        <a href="#"><img class="mySlides" src="movies/upcoming/resources/umi.jpg" alt="KAGUYA"></a>
+                        <p>The Tale of The Princess Kaguya</p>
+                    </div>
+                    <div class="div-upcoming">
+                        <a href="#"><img class="mySlides" src="movies/upcoming/resources/yamada.jpg" alt="KAGUYA"></a>
+                        <p>The Tale of The Princess Kaguya</p>
+                    </div>
+                </div>
+                <button class="prev2" onclick="plusDivs2(-4)">&#10094;</button>
+                <button class="next2" onclick="plusDivs2(4)">&#10095;</button>
+            </div>
+
+            <div class="dot-container2"></div>
+        </div>
+
+        <script src="button-slide.js"></script>
+        <script src="button-slide2.js"></script>
+        <script src="signin-signup.js"></script>
+    </body>
+</html>

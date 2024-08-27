@@ -1,0 +1,191 @@
+.film-area /* 1 */
+{
+    width: fit-content;
+    height: fit-content;
+} 
+
+.film-area img
+{
+    height: 330px;
+    width: 240px;
+}
+
+.box1 /* 2 */
+{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 79px;
+    margin-top: 10px;
+    height: 80px;
+    width: 1100px;
+    justify-content: center;
+}
+
+#quickbook /* 3 */
+{
+    position: absolute;
+    margin-left: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(101, 160, 177);
+}
+
+.selects /* 3 */
+{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.selects select /* 4 */
+{
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: rgb(80, 214, 194);
+}
+
+.film-showing-title /* 2 */
+{
+    width: 100px;
+    height: 100px;
+}
+
+.film-showing-title h1 /* 3 */
+{
+    position: absolute;
+    margin-left: 517px;
+    margin-top: 60px;
+}
+
+.film-slider
+{
+    height: 330px;
+    position: absolute;
+    margin-left: 114px;
+    margin-top: 50px;
+}
+
+.film-show img
+{
+    margin: 9px
+}
+
+.film-show button
+{
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 210px;
+    position: absolute;
+}
+
+.prev
+{
+    margin-left: 70px;
+}
+
+.next
+{
+    margin-left: 1155px;
+}
+
+.div-film
+{
+    width: 250px;
+}
+
+.more-film
+{
+    margin-top: 480px;
+    margin-left: 580px;
+}
+
+.dot-container {
+    text-align: center;
+    width: 1247px;
+    height: 15px;
+    margin-top: 450px;
+    position: absolute;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: red;
+}
+
+.upcoming-title
+{
+    height: 60px;
+}
+
+.upcoming-title h1
+{
+    margin-top: 60px;
+    margin-left: 520px;
+}
+
+.film-slider-2 img
+{
+    margin: 6px;
+}
+
+.film-slider-2
+{
+    height: 330px;
+    position: absolute;
+    margin-left: 114px;
+    margin-top: 50px;
+}
+
+.div-upcoming
+{
+    display: inline-block;
+}
+
+.dot-container2 {
+    text-align: center;
+    width: 1247px;
+    height: 15px;
+    margin-top: 442px;
+    position: absolute;
+}
+
+.dot2 {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: red;
+}
+
+.prev2
+{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 210px;
+}
+
+.next2
+{
+    position: absolute;
+    margin-left:1165px;
+    margin-top: 210px;
+}
